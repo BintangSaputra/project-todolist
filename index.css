@@ -1,15 +1,10 @@
-.container {
-  font-family: Nunito;
+body {
+  height: 100%;
+  width: 100%;
 }
-
-.side-menu {
+#container {
+  font-family: Nunito;
   display: flex;
-  flex-direction: column;
-  margin: 0 0 0 0;
-  padding: 50px;
-  background-color: #f2f2f2;
-  width: 200px;
-  height: 865px;
 }
 
 .avatar {
@@ -37,12 +32,30 @@ li a {
   text-decoration: none;
 }
 
-.date {
+section.side-right-menu {
+  width: 100%;
+  background-color: #fff;
+  height: 100vh;
+}
+
+section.side-left-menu {
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+div.date {
   display: flex;
   justify-content: flex-start;
 }
 
-.schedule-link {
+.day-desc {
+  margin-right: 10px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  padding: 0px;
+}
+
+div.schedule-sec {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
