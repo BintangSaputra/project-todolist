@@ -7,9 +7,24 @@ body {
   display: flex;
 }
 
+section.side-left-menu {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 40vh;
+  background-color: #f2f2f2;
+}
+
 .avatar {
-  height: 15vh;
   width: 15vh;
+  padding-left: 60px;
+  padding-top: 60px;
+  margin-bottom: 0px;
+}
+
+.name {
+  padding: 50px;
+  margin-top: 0px;
 }
 
 .avatar-sec {
@@ -29,19 +44,13 @@ ul {
 li a {
   display: block;
   text-decoration: none;
+  color: black;
 }
 
 section.side-right-menu {
   width: 100%;
   background-color: #fff;
   height: 100vh;
-}
-
-section.side-left-menu {
-  height: 100vh;
-  width: 40vh;
-  background-color: #f2f2f2;
-  align-content: center;
 }
 
 div.date {
@@ -82,6 +91,6 @@ div.schedule-sec {
   width: 100%;
 }
 
-.schedule-input {
+.board {
   border: none;
 }
