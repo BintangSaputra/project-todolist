@@ -18,6 +18,11 @@
   margin: 0px 0px 0px 0px;
 }
 
+.avatar-sec {
+  background-color: #f2f2f2;
+  width: 200px;
+}
+
 .nav-link {
   font-size: 15pt;
   margin: 20px;
@@ -34,7 +39,7 @@ li a {
 
 .date {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .schedule-link {
