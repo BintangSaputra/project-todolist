@@ -64,11 +64,11 @@ li a {
   color: #ff4646;
 }
 
-.daily:link {
+a.daily:link {
   color: black;
 }
 
-.weekly:link {
+a.weekly:link {
   color: black;
 }
 
@@ -105,6 +105,14 @@ div.schedule-sec {
   justify-content: space-evenly;
 }
 
+.schedule-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 5vh;
+  padding-top: 5vh;
+}
+
 .input {
   padding: 10px;
   border-radius: 50px;
@@ -127,6 +135,7 @@ div.schedule-sec {
 
 .board {
   border: none;
+  padding-bottom: 2vh;
 }
 
 .input-week {
@@ -141,4 +150,14 @@ div.schedule-sec {
   border-radius: 50px;
   border: none;
   width: 115px;
+}
+
+.save-button {
+  text-decoration: none;
+  background-color: #2562ff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  width: 5vh;
 }
