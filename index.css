@@ -192,3 +192,7 @@ body {
   color: #fff;
   width: 5vh;
 }
+
+.register-form {
+  border: none;
+}
