@@ -167,3 +167,18 @@ div.schedule-sec {
   padding-top: 30vh;
   height: 15vh;
 }
+
+.register-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 2vh;
+  border-radius: 50px;
+  border: none;
+  width: 25vh;
+}
+
+body {
+  background-color: #2562ff;
+}
