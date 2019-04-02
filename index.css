@@ -64,8 +64,20 @@ li a {
   color: #ff4646;
 }
 
+.daily:link {
+  color: black;
+}
+
+.weekly:link {
+  color: black;
+}
+
 .weekly:visited {
   color: #ff4646;
+}
+
+.weekly {
+  text-decoration: none;
 }
 
 section.side-right-menu {
@@ -115,4 +127,18 @@ div.schedule-sec {
 
 .board {
   border: none;
+}
+
+.input-week {
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  width: 115px;
+}
+
+.input-date {
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  width: 115px;
 }
